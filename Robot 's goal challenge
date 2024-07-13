@@ -2,7 +2,7 @@ def turn_right():
     turn_left()
     turn_left()
     turn_left()
-def stage():
+def jump():
     move()
     turn_left()
     move()
@@ -11,13 +11,10 @@ def stage():
     turn_right()
     move()
     turn_left()
-    
-stage()
-stage()
-stage()
-stage()
-stage()
-stage()
+for step in range(6):
+    jump()
+
+
 
     
 
